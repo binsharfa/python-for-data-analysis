@@ -1,3 +1,5 @@
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/KAUST-Academy/python-for-data-analysis/november-2022)
+
 # Python for Data Analysis, 3rd Edition
 
 Materials and IPython notebooks for "Python for Data Analysis, 3rd
