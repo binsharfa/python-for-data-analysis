@@ -8,11 +8,16 @@ website][6] and is available for sale on [Amazon][1]
 
 ## Course Curriculum
 
-### Module 1
+### Module 0
 
 * [Chapter 2: Python Language Basics, IPython, and Jupyter Notebooks](http://nbviewer.ipython.org/github/pydata/pydata-book/blob/3rd-edition/ch02.ipynb)
+* Appendix B: IPython Magic Commands
 * [Chapter 3: Built-in Data Structures, Functions, and Files](http://nbviewer.ipython.org/github/pydata/pydata-book/blob/3rd-edition/ch03.ipynb)
+
+### Module 1
+
 * [Chapter 4: NumPy Basics: Arrays and Vectorized Computation](http://nbviewer.ipython.org/github/pydata/pydata-book/blob/3rd-edition/ch04.ipynb)
+* Appendix A: Advanced NumPy
 * [Chapter 5: Getting Started with pandas](http://nbviewer.ipython.org/github/pydata/pydata-book/blob/3rd-edition/ch05.ipynb)
 
 ### Module 2
