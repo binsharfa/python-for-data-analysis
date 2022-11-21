@@ -47,7 +47,9 @@ After competing this module learners will understand how to develop basic data m
 
 | **Tutorial** | **Open in Google Colab** | **Open in Kaggle** |
 |--------------|:------------------------:|:------------------:|
-| Introduction to Modeling Libraries in Python | [![Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/KAUST-Academy/python-for-data-analysis/blob/november-2022/module-3/ch12.ipynb) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https://github.com/KAUST-Academy/python-for-data-analysis/blob/november-2022/module-3/ch12.ipynb) | 
+| Defining Data Models using Patsy | [![Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/KAUST-Academy/python-for-data-analysis/blob/november-2022/module-3/ch12.ipynb) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https://github.com/KAUST-Academy/python-for-data-analysis/blob/november-2022/module-3/ch12.ipynb) | 
+| Statistics Approach to Data Modeling with Statsmodels | [![Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/KAUST-Academy/python-for-data-analysis/blob/november-2022/module-3/ch12-2.ipynb) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https://github.com/KAUST-Academy/python-for-data-analysis/blob/november-2022/module-3/ch12-2.ipynb) | 
+| Machine Learning Approach to Data Modeling with Scikit-Learn| [![Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/KAUST-Academy/python-for-data-analysis/blob/november-2022/module-3/ch12-3.ipynb) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https://github.com/KAUST-Academy/python-for-data-analysis/blob/november-2022/module-3/ch12-3.ipynb) | 
 
 ### Module 4
 
