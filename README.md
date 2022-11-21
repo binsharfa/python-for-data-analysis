@@ -39,6 +39,7 @@ After completing this module, learners should understand how to prepare (i.e., c
 | Data Wrangling | [![Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/KAUST-Academy/python-for-data-analysis/blob/november-2022/module-2/ch08.ipynb) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https://github.com/KAUST-Academy/python-for-data-analysis/blob/november-2022/module-2/ch08.ipynb) | 
 | Plotting and Visualization | [![Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/KAUST-Academy/python-for-data-analysis/blob/november-2022/module-2/ch09.ipynb) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https://github.com/KAUST-Academy/python-for-data-analysis/blob/november-2022/module-2/ch09.ipynb) | 
 | Data Aggregation and Group Operations | [![Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/KAUST-Academy/python-for-data-analysis/blob/november-2022/module-2/ch10.ipynb) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https://github.com/KAUST-Academy/python-for-data-analysis/blob/november-2022/module-2/ch10.ipynb) | 
+| Time Series | [![Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/KAUST-Academy/python-for-data-analysis/blob/november-2022/module-2/ch11.ipynb) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https://github.com/KAUST-Academy/python-for-data-analysis/blob/november-2022/module-2/ch11.ipynb) | 
 
 ### Module 3
 
@@ -46,7 +47,6 @@ After competing this module learners will understand how to develop basic data m
 
 | **Tutorial** | **Open in Google Colab** | **Open in Kaggle** |
 |--------------|:------------------------:|:------------------:|
-| Time Series | [![Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/KAUST-Academy/python-for-data-analysis/blob/november-2022/module-3/ch11.ipynb) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https://github.com/KAUST-Academy/python-for-data-analysis/blob/november-2022/module-3/ch11.ipynb) | 
 | Introduction to Modeling Libraries in Python | [![Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/KAUST-Academy/python-for-data-analysis/blob/november-2022/module-3/ch12.ipynb) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https://github.com/KAUST-Academy/python-for-data-analysis/blob/november-2022/module-3/ch12.ipynb) | 
 
 ### Module 4
@@ -60,7 +60,6 @@ Finally, learners will also have an opportunity to apply the skills that they ha
 | Data Analysis Example: US Baby Names | [![Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/KAUST-Academy/python-for-data-analysis/blob/november-2022/module-4/ch13-3.ipynb) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https://github.com/KAUST-Academy/python-for-data-analysis/blob/november-2022/module-4/ch13-3.ipynb) | 
 | Data Analysis Example: USDA Food Database | [![Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/KAUST-Academy/python-for-data-analysis/blob/november-2022/module-4/ch13-4.ipynb) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https://github.com/KAUST-Academy/python-for-data-analysis/blob/november-2022/module-4/ch13-4.ipynb) | 
 | Data Analysis Example: 2012 Federal Election Commission | [![Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/KAUST-Academy/python-for-data-analysis/blob/november-2022/module-4/ch13-5.ipynb) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https://github.com/KAUST-Academy/python-for-data-analysis/blob/november-2022/module-4/ch13-5.ipynb) | 
-
 
 ## License
 
