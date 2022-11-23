@@ -2,11 +2,20 @@
 
 # Python for Data Analysis
 
-Course materials for a multi day course on data analysis with Python using [Pandas](https://pandas.pydata.org/) based on materials  from "Python for Data Analysis, 3rd Edition" by Wes McKinney, published by O'Reilly Media. Book content including updates and errata fixes can be [found for free on the author's website][6] and is available for sale on [Amazon][1]
+Course materials for a multi day course on data analysis with Python using [Pandas](https://pandas.pydata.org/) based on materials  from "Python for Data Analysis, 3rd Edition" by Wes McKinney, published by O'Reilly Media. Book content including updates and errata fixes can be [found for free on the author's website][6] and is available for sale on [Amazon][1].
 
 ## Lessons
 
 To get the most out of this material learners should have completed [Python Crash Course](https://github.com/KAUST-Academy/python-crash-course) prior to attempting this course (but this is not a strict prerequesite). 
+
+Instructors have a few options for teaching the material. 
+
+1. Have the book open on an iPad (or similar); have the students open a new blank notebook; live code some (or all) the examples from the book and use the text of the book as speaking notes.
+2. Have the students open the book in their browser; have students open a blank notebook in another browser window and the have them read through relevant chapters of the book and code up the examples. Lead instructor and any teaching assistants are available to troubleshoot and answer individual questions. Common questions should be answered to the group as a live demo.
+3. Have the students open the book in their browser; have students open the provided notebooks in another browser window and the have them read through relevant chapters of the book and execute the provided code. Lead instructor and any teaching assistants are available to troubleshoot and answer individual questions. Common questions should be answered to the group as a live demo.
+4. Some combination of the above.
+
+Approach 1 is the most difficult for the lead instructor but likely the most engaging for learners; option 3 is easier for both lead instructor and the students but likely results in the least learning. Option 2 is a middle ground: easier for the lead instructor but still requires students to write their own code. 
 
 ### Module 0
 
