@@ -1,39 +1,76 @@
-# Python for Data Analysis, 3rd Edition
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/KAUST-Academy/python-for-data-analysis/november-2022)
 
-Materials and IPython notebooks for "Python for Data Analysis, 3rd
-Edition" by Wes McKinney, published by O'Reilly Media. Book content
-including updates and errata fixes can be [found for free on my
-website][6].
+# Python for Data Analysis
 
-[Buy the book on Amazon][1]
+Course materials for a multi day course on data analysis with Python using [Pandas](https://pandas.pydata.org/) based on materials  from "Python for Data Analysis, 3rd Edition" by Wes McKinney, published by O'Reilly Media. Book content including updates and errata fixes can be [found for free on the author's website][6] and is available for sale on [Amazon][1].
 
-Follow Wes on Twitter: [![Twitter Follow](https://img.shields.io/twitter/follow/wesmckinn.svg?style=social&label=Follow)](https://twitter.com/wesmckinn)
+## Lessons
 
-# 2nd Edition Readers
+To get the most out of this material learners should have completed [Python Crash Course](https://github.com/KAUST-Academy/python-crash-course) prior to attempting this course (but this is not a strict prerequesite). 
 
-If you are reading the 2nd Edition (published in 2017), please find the
-reorganized book materials on the [`2nd-edition` branch][5].
+Instructors have a few options for teaching the material. 
 
-# 1st Edition Readers
+1. Have the book open on an iPad (or similar); have the students open a new blank notebook; live code some (or all) the examples from the book and use the text of the book as speaking notes.
+2. Have the students open the book in their browser; have students open a blank notebook in another browser window and the have them read through relevant chapters of the book and code up the examples. Lead instructor and any teaching assistants are available to troubleshoot and answer individual questions. Common questions should be answered to the group as a live demo.
+3. Have the students open the book in their browser; have students open the provided notebooks in another browser window and the have them read through relevant chapters of the book and execute the provided code. Lead instructor and any teaching assistants are available to troubleshoot and answer individual questions. Common questions should be answered to the group as a live demo.
+4. Some combination of the above.
 
-If you are reading the 1st Edition (published in 2012), please find the
-reorganized book materials on the [`1st-edition` branch][2].
+Approach 1 is the most difficult for the lead instructor but likely the most engaging for learners; option 3 is easier for both lead instructor and the students but likely results in the least learning. Option 2 is a middle ground: easier for the lead instructor but still requires students to write their own code. 
 
-## IPython Notebooks:
+### Module 0
 
-* [Chapter 2: Python Language Basics, IPython, and Jupyter Notebooks](http://nbviewer.ipython.org/github/pydata/pydata-book/blob/3rd-edition/ch02.ipynb)
-* [Chapter 3: Built-in Data Structures, Functions, and Files](http://nbviewer.ipython.org/github/pydata/pydata-book/blob/3rd-edition/ch03.ipynb)
-* [Chapter 4: NumPy Basics: Arrays and Vectorized Computation](http://nbviewer.ipython.org/github/pydata/pydata-book/blob/3rd-edition/ch04.ipynb)
-* [Chapter 5: Getting Started with pandas](http://nbviewer.ipython.org/github/pydata/pydata-book/blob/3rd-edition/ch05.ipynb)
-* [Chapter 6: Data Loading, Storage, and File Formats](http://nbviewer.ipython.org/github/pydata/pydata-book/blob/3rd-edition/ch06.ipynb)
-* [Chapter 7: Data Cleaning and Preparation](http://nbviewer.ipython.org/github/pydata/pydata-book/blob/3rd-edition/ch07.ipynb)
-* [Chapter 8: Data Wrangling: Join, Combine, and Reshape](http://nbviewer.ipython.org/github/pydata/pydata-book/blob/3rd-edition/ch08.ipynb)
-* [Chapter 9: Plotting and Visualization](http://nbviewer.ipython.org/github/pydata/pydata-book/blob/3rd-edition/ch09.ipynb)
-* [Chapter 10: Data Aggregation and Group Operations](http://nbviewer.ipython.org/github/pydata/pydata-book/blob/3rd-edition/ch10.ipynb)
-* [Chapter 11: Time Series](http://nbviewer.ipython.org/github/pydata/pydata-book/blob/3rd-edition/ch11.ipynb)
-* [Chapter 12: Introduction to Modeling Libraries in Python](http://nbviewer.ipython.org/github/pydata/pydata-book/blob/3rd-edition/ch12.ipynb)
-* [Chapter 13: Data Analysis Examples](http://nbviewer.ipython.org/github/pydata/pydata-book/blob/3rd-edition/ch13.ipynb)
-* [Appendix A: Advanced NumPy](http://nbviewer.ipython.org/github/pydata/pydata-book/blob/3rd-edition/appa.ipynb)
+A whirlwind tutorial of the basics of the Python programming language. There module also covers a bit of [IPython](https://ipython.org/) and [Jupyter](https://jupyter.org/) related topics sufficient to make learners comfortable with the programming environment prior to tackling the more advanced material presented in later modules.
+
+| **Tutorial** | **Open in Google Colab** | **Open in Kaggle** |
+|--------------|:------------------------:|:------------------:|
+| Python Language Basics | [![Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/KAUST-Academy/python-for-data-analysis/blob/november-2022/module-0/ch02.ipynb) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https://github.com/KAUST-Academy/python-for-data-analysis/blob/november-2022/module-0/ch02.ipynb) | 
+| Built-in Data Structures, Functions, and Files | [![Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/KAUST-Academy/python-for-data-analysis/blob/november-2022/module-0/ch03.ipynb) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https://github.com/KAUST-Academy/python-for-data-analysis/blob/november-2022/module-0/ch03.ipynb) | 
+
+### Module 1
+
+After completing this module learners should understand various data types used in data analysis in Python such as [NumPy](https://numpy.org/) arrays, Pandas Series, and Pandas DataFrames. Learners should also be able to read (write) data from (to) storage in various formats using Pandas.  
+
+| **Tutorial** | **Open in Google Colab** | **Open in Kaggle** |
+|--------------|:------------------------:|:------------------:|
+| NumPy Basics | [![Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/KAUST-Academy/python-for-data-analysis/blob/november-2022/module-1/ch04.ipynb) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https://github.com/KAUST-Academy/python-for-data-analysis/blob/november-2022/module-1/ch04.ipynb) | 
+| Advanced NumPy (optional) | [![Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/KAUST-Academy/python-for-data-analysis/blob/november-2022/module-1/appb.ipynb) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https://github.com/KAUST-Academy/python-for-data-analysis/blob/november-2022/module-1/appb.ipynb) | 
+| Pandas Basics | [![Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/KAUST-Academy/python-for-data-analysis/blob/november-2022/module-1/ch05.ipynb) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https://github.com/KAUST-Academy/python-for-data-analysis/blob/november-2022/module-1/ch05.ipynb) | 
+| Data Loading, Storage, and File Formats | [![Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/KAUST-Academy/python-for-data-analysis/blob/november-2022/module-1/ch06.ipynb) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https://github.com/KAUST-Academy/python-for-data-analysis/blob/november-2022/module-1/ch06.ipynb) | 
+
+### Module 2
+
+After completing this module, learners should understand how to prepare (i.e., clean, manipulate, aggregate, and visualize) data for further analysis. Learners will develop a knowledge of the Pandas API as well as a basic knowledge of plotting and visualizing of data with [Matplotlib](https://matplotlib.org/) and [Seaborn](https://seaborn.pydata.org/).
+
+
+| **Tutorial** | **Open in Google Colab** | **Open in Kaggle** |
+|--------------|:------------------------:|:------------------:|
+| Data Cleaning and Preparation | [![Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/KAUST-Academy/python-for-data-analysis/blob/november-2022/module-2/ch07.ipynb) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https://github.com/KAUST-Academy/python-for-data-analysis/blob/november-2022/module-2/ch07.ipynb) | 
+| Data Wrangling | [![Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/KAUST-Academy/python-for-data-analysis/blob/november-2022/module-2/ch08.ipynb) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https://github.com/KAUST-Academy/python-for-data-analysis/blob/november-2022/module-2/ch08.ipynb) | 
+| Plotting and Visualization | [![Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/KAUST-Academy/python-for-data-analysis/blob/november-2022/module-2/ch09.ipynb) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https://github.com/KAUST-Academy/python-for-data-analysis/blob/november-2022/module-2/ch09.ipynb) | 
+| Data Aggregation and Group Operations | [![Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/KAUST-Academy/python-for-data-analysis/blob/november-2022/module-2/ch10.ipynb) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https://github.com/KAUST-Academy/python-for-data-analysis/blob/november-2022/module-2/ch10.ipynb) | 
+| Time Series | [![Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/KAUST-Academy/python-for-data-analysis/blob/november-2022/module-2/ch11.ipynb) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https://github.com/KAUST-Academy/python-for-data-analysis/blob/november-2022/module-2/ch11.ipynb) | 
+
+### Module 3
+
+After competing this module learners will understand how to develop basic data modelling and analysis pipelines using [Patsy](https://patsy.readthedocs.io/en/latest/), [Statsmodels](https://www.statsmodels.org/stable/index.html) and [Scikit-Learn](https://scikit-learn.org/stable/).
+
+| **Tutorial** | **Open in Google Colab** | **Open in Kaggle** |
+|--------------|:------------------------:|:------------------:|
+| Defining Data Models using Patsy | [![Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/KAUST-Academy/python-for-data-analysis/blob/november-2022/module-3/ch12.ipynb) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https://github.com/KAUST-Academy/python-for-data-analysis/blob/november-2022/module-3/ch12.ipynb) | 
+| Statistics Approach to Data Modeling with Statsmodels | [![Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/KAUST-Academy/python-for-data-analysis/blob/november-2022/module-3/ch12-2.ipynb) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https://github.com/KAUST-Academy/python-for-data-analysis/blob/november-2022/module-3/ch12-2.ipynb) | 
+| Machine Learning Approach to Data Modeling with Scikit-Learn| [![Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/KAUST-Academy/python-for-data-analysis/blob/november-2022/module-3/ch12-3.ipynb) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https://github.com/KAUST-Academy/python-for-data-analysis/blob/november-2022/module-3/ch12-3.ipynb) | 
+
+### Module 4
+
+Finally, learners will also have an opportunity to apply the skills that they have learned to analyze real data. Typically, instructors should select 3 of the following projects to cover over one day of instruction.
+
+| **Tutorial** | **Open in Google Colab** | **Open in Kaggle** |
+|--------------|:------------------------:|:------------------:|
+| Data Analysis Example: Bitly Data from USA.gov | [![Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/KAUST-Academy/python-for-data-analysis/blob/november-2022/module-4/ch13.ipynb) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https://github.com/KAUST-Academy/python-for-data-analysis/blob/november-2022/module-4/ch13.ipynb) | 
+| Data Analysis Example: MovieLens 1M | [![Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/KAUST-Academy/python-for-data-analysis/blob/november-2022/module-4/ch13-2.ipynb) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https://github.com/KAUST-Academy/python-for-data-analysis/blob/november-2022/module-4/ch13-2.ipynb) | 
+| Data Analysis Example: US Baby Names | [![Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/KAUST-Academy/python-for-data-analysis/blob/november-2022/module-4/ch13-3.ipynb) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https://github.com/KAUST-Academy/python-for-data-analysis/blob/november-2022/module-4/ch13-3.ipynb) | 
+| Data Analysis Example: USDA Food Database | [![Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/KAUST-Academy/python-for-data-analysis/blob/november-2022/module-4/ch13-4.ipynb) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https://github.com/KAUST-Academy/python-for-data-analysis/blob/november-2022/module-4/ch13-4.ipynb) | 
+| Data Analysis Example: 2012 Federal Election Commission | [![Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/KAUST-Academy/python-for-data-analysis/blob/november-2022/module-4/ch13-5.ipynb) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https://github.com/KAUST-Academy/python-for-data-analysis/blob/november-2022/module-4/ch13-5.ipynb) | 
 
 ## License
 
@@ -44,6 +81,4 @@ above, is released under the [MIT license](LICENSE-CODE). Read more at the
 [Open Source Initiative](https://opensource.org/licenses/MIT).
 
 [1]: https://amzn.to/3DyLaJc
-[2]: https://github.com/wesm/pydata-book/tree/1st-edition
-[5]: https://github.com/wesm/pydata-book/tree/2nd-edition
 [6]: https://wesmckinney.com/book/
